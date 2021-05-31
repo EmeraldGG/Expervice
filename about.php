@@ -34,7 +34,7 @@
             <hr class="my-4">
         </div>
 
-        <div class="card-deck" style="margin: 100px 100px 100px 450px;">
+        <div class="card-deck" style="margin: 100px 100px 100px 650px;">
             <div class="card">
                 <img src="assets\images\Fazar.png" alt="Satria" style="height:100%">
                 <h2>Fazar Zulham Ibrahim</h2>

@@ -53,6 +53,8 @@
                 <a href="#"><i class="fa fa-facebook"> xXLoliHunter_69Xx </i></a>
                 <p><button>Kontak</button></p>
             </div>
+        </div>
+        <div class="card-deck" style="margin: 100px 100px 100px 650px;">
             <div class="card">
                 <img src="assets\images\Dwiky.PNG" alt="Dwiky" style="height:900%">
                 <h2>Dwiky Meidy Lasmana</h2>
@@ -62,8 +64,6 @@
                 <a href="#"><i class="fa fa-facebook"> IXION </i></a>
                 <p><button>Kontak</button></p>
             </div>
-        </div>
-        <div class="card-deck" style="margin: 100px 100px 100px 650px;">
             <div class="card">
                 <img src="assets\images\Kris.PNG" alt="Kris" style="height:100%">
                 <h2>Kristianto</h2>
@@ -73,17 +73,6 @@
                 <a href="#"><i class="fa fa-facebook"> Chinese Boy </i></a>
                 <p><button>Kontak</button></p>
             </div>
-
-            <div class="card">
-                <img src="assets\images\Findi.PNG" alt="Findi" style="height:100%">
-                <h2>Findi Yandaris</h2>
-                <p class="title">065118104</p>
-                <h3>Universitas Pakuan</h3>
-                <a href="#"><i class="fa fa-whatsapp"> 0821-7775-2859</i></a>
-                <a href="#"><i class="fa fa-facebook"> Zulul </i></a>
-                <p><button>Kontak</button></p>
-            </div>
-
         </div>
     </body>
 </html>

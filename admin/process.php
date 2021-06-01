@@ -2,7 +2,14 @@
 
 session_start();
 $mysqli = new mysqli('localhost', 'root', '', 'expervicedb') or die(mysqli_error($mysqli));
-if (isset($_POST['insert_item'])) {
+
+$collect = json_decode(file_get_contents('profile.json'));
+$mitra_token = $collect->mitra_token;
+$query = $mysqli->query("SELECT * FROM mitra WHERE mitra_token = '$mitra_token'") or die($mysqli->error);
+if ($query->fetch_assoc() == NULL){
+    die("akun tidak terdaftar");
+}    
+else if (isset($_POST['insert_item'])) {
     $collect = json_decode(file_get_contents('profile.json'));
     $mitra_token = $collect->mitra_token;
     $query = $mysqli->query("SELECT * FROM mitra WHERE mitra_token = '$mitra_token'") or die($mysqli->error);

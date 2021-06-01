@@ -31,7 +31,7 @@
             <p class="lead">Hubungi Kami.</p>
             <hr class="my-4">
         </div>
-        <div class="card-deck" style="margin: 100px 100px 100px 650px;">
+        <div class="card-deck" style="margin: 100px 100px 100px 100px;">
             <div class="card">
                 <img src="assets\images\Fazar.png" alt="Satria" style="height:100%">
                 <h2>Fazar Zulham Ibrahim</h2>
@@ -50,10 +50,8 @@
                 <a href="#"><i class="fa fa-facebook"> xXLoliHunter_69Xx </i></a>
                 <p><button>Kontak</button></p>
             </div>
-        </div>
-        <div class="card-deck" style="margin: 100px 100px 100px 650px;">
             <div class="card">
-                <img src="assets\images\Dwiky.PNG" alt="Dwiky" style="height:900%">
+                <img src="assets\images\Dwiky.PNG" alt="Dwiky" style="height:100%">
                 <h2>Dwiky Meidy Lasmana</h2>
                 <p class="title">065118085</p>
                 <h3>Universitas Pakuan</h3>

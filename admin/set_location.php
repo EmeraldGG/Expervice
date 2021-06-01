@@ -8,7 +8,7 @@
     <body>
         <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #4B7BEC">
             <!-- Brand -->
-            <a class="navbar-brand" href="index.php">EXPERVICE ADMIN</a>
+            <a class="navbar-brand" href="dashboard.php">EXPERVICE ADMIN</a>
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="dashboard.php">Dashboard</a>

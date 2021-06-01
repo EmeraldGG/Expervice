@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 30 Bulan Mei 2021 pada 18.16
+-- Waktu pembuatan: 01 Jun 2021 pada 12.15
 -- Versi server: 10.4.19-MariaDB
 -- Versi PHP: 8.0.6
 
@@ -34,19 +34,18 @@ CREATE TABLE `item` (
   `weight` int(11) NOT NULL,
   `address` text NOT NULL,
   `phone_number` varchar(15) NOT NULL,
-  `location_now` text DEFAULT NULL
+  `last_mitra` varchar(15) DEFAULT NULL,
+  `status` varchar(15) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data untuk tabel `item`
 --
 
-INSERT INTO `item` (`resi`, `name`, `price`, `weight`, `address`, `phone_number`, `location_now`) VALUES
-('7aFKvECElQ', 'Dakimakura Chino Kafuu', 5000, 1, 'cibarusah', '0865118118', '[current location]'),
-('7aFKvEQElQ', 'Dakimakura Chino Kafuu', 5000, 1, 'cibarusah', '0865118118', '[current location]'),
-('J1FH9GJ1FZ', 'Dakimakura Chino Kafuu', 5000, 1, 'cibarusah', '0865118118', '[current location]'),
-('KBM610AON2', 'Dakimakura Chino Kafuu', 5000, 1, 'cibarusah', '0865118118', '[current location]'),
-('ZUVUQ8JA1T', 'Dakimakura Chino Kafuu', 5000, 1, 'cibarusah', '0865118118', '[current location]');
+INSERT INTO `item` (`resi`, `name`, `price`, `weight`, `address`, `phone_number`, `last_mitra`, `status`) VALUES
+('JJXJ1QENNA', 'Handset xoaimi', 5000, 1, 'cibarusah', '0865118118', '12345678', 'Diterima'),
+('M1AIWPXNTE', 'Dakimakura Chino Kafuu', 5000, 1, 'Perumahan jalan indah', '0865118118', '12345678', 'Diterima'),
+('YA0PKU7X3Y', 'Dakimakura Klee', 2500, 1, 'cibarusah', '0865118118', '12345678', 'Diterima');
 
 --
 -- Indexes for dumped tables

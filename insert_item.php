@@ -37,26 +37,37 @@
                 ?>
             </div>
             <?php endif ?>
+<<<<<<< Updated upstream:insert_item.php
             <div style="margin: 100px 400px 100px 400px;">
+=======
+            <div style="margin: 80px 400px 50px 400px;">
+>>>>>>> Stashed changes:admin/insert_item.php
             <form actions="process.php" method="POST">
                 <div class="form-group">
-                    <label>nama</label>
+                    <label>Nama</label>
                     <input type="text" name="name" class="form-control" value="">
                 </div>
                 <div class="form-group">
-                    <label>harga</label>
-                    <input type="text" name="price" class="form-control" value="">
+                    <label for="jenispengiriman">Jenis Pengiriman</label>
+                    <select class="form-control" id="jenispengiriman">
+                    <option>Same Day Service</option>
+                    <option>Over Night Service</option>
+                    <option>Regular Service</option>
+                    <option>Economy Service</option>
+                    <option>Trucking Service</option>
+                    <option>International Service</option>
+                    </select>
                 </div>
                 <div class="form-group">
-                    <label>berat(kg)</label>
+                    <label>Berat(kg)</label>
                     <input type="text" name="weight" class="form-control" value="">
                 </div>
                 <div class="form-group">
-                    <label>alamat</label>
+                    <label>Alamat</label>
                     <input type="text" name="address" class="form-control" value="">
                 </div>
                 <div class="form-group">
-                    <label>nomor telepon</label>
+                    <label>Nomor Telepon</label>
                     <input type="text" name="phone_number" class="form-control" value="">
                 </div>
                 <div class="form-group" style="text-align: center; margin-top: 50px;">
